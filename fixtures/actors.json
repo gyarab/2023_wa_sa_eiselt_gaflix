@@ -1,0 +1,52 @@
+[
+    {
+      "model": "filmy.actor",
+      "pk": 1,
+      "fields": {
+        "name": "Lukáš Dondal",
+        "birth_year": 1989,
+        "description": "once nominated for Oscars",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.actor",
+      "pk": 2,
+      "fields": {
+        "name": "Marek Bezďošovis",
+        "birth_year": 2001,
+        "description": "acting only for money",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.actor",
+      "pk": 3,
+      "fields": {
+        "name": "Matěj Tůchylos",
+        "birth_year": 1994,
+        "description": "abusing his collegues",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.actor",
+      "pk": 4,
+      "fields": {
+        "name": "Jindřich Dezošbezoš",
+        "birth_year": 1889,
+        "description": "once in Harry Potter movie",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.actor",
+      "pk": 5,
+      "fields": {
+        "name": "Bohumil Benzoš",
+        "birth_year": 1970,
+        "description": "addicted to pretzels",
+        "main_picture": ""
+      }
+    }
+    ]

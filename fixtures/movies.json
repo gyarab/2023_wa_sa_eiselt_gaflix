@@ -1,0 +1,57 @@
+[
+    {
+      "model": "filmy.movie",
+      "pk": 1,
+      "fields": {
+        "name": "Wonderland",
+        "year": 2024,
+        "footage": 180,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 2,
+      "fields": {
+        "name": "Joe in Sweden",
+        "year": 2024,
+        "footage": 150,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 3,
+      "fields": {
+        "name": "Rambo Dog",
+        "year": 2024,
+        "footage": 120,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 4,
+      "fields": {
+        "name": "Harry Potter 2042",
+        "year": 2024,
+        "footage": 190,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 5,
+      "fields": {
+        "name": "Nebe a zem",
+        "year": 2024,
+        "footage": 153,
+        "description": "NOT OUT YET",
+        "main_picture": ""
+      }
+    }
+    ]

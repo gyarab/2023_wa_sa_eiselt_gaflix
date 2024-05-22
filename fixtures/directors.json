@@ -1,0 +1,52 @@
+[
+    {
+      "model": "filmy.director",
+      "pk": 1,
+      "fields": {
+        "name": "František Kazoš",
+        "birth_year": 1991,
+        "description": "agressive",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.director",
+      "pk": 2,
+      "fields": {
+        "name": "Bohumil Bondas",
+        "birth_year": 1978,
+        "description": "directed only one film",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.director",
+      "pk": 3,
+      "fields": {
+        "name": "Jarmil Fungo",
+        "birth_year": 1967,
+        "description": "legend",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.director",
+      "pk": 4,
+      "fields": {
+        "name": "Michal Jakotoš",
+        "birth_year": 1989,
+        "description": "deaf",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.director",
+      "pk": 5,
+      "fields": {
+        "name": "Jakub Bundoklas",
+        "birth_year": 1986,
+        "description": "no friends",
+        "main_picture": ""
+      }
+    }
+    ]
