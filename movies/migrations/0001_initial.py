@@ -18,9 +18,5 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=300)),
                 ('year', models.IntegerField(blank=True, null=True)),
             ],
-            options={
-                'verbose_name': 'Film',
-                'verbose_name_plural': 'Filmy',
-            },
         ),
     ]

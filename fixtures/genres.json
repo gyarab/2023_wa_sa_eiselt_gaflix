@@ -1,55 +1,55 @@
 [
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 1,
       "fields": {
         "name": "Action"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 2,
       "fields": {
         "name": "Comedy"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 3,
       "fields": {
         "name": "Horror"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 4,
       "fields": {
         "name": "Romance"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 5,
       "fields": {
         "name": "Documentary"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 6,
       "fields": {
         "name": "Thriller"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 7,
       "fields": {
         "name": "Drama"
       }
     },
     {
-      "model": "filmy.genre",
+      "model": "movies.genre",
       "pk": 8,
       "fields": {
         "name": "Anime"
