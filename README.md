@@ -3,6 +3,7 @@
 
 ## První inicializace projektu
 
+```
 git clone git@github.com:gyarab/2023_wa_sa_eiselt_gaflix.git
 cd 2023_wa_sa_eiselt_gaflix/
 
