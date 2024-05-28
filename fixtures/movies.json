@@ -3,55 +3,70 @@
       "model": "movies.movie",
       "pk": 1,
       "fields": {
-        "title": "Wonderland",
-        "year": 2024,
-        "footage": 180,
-        "description": "NOT OUT YET",
-        "photo": ""
+        "title": "Snowboarďáci",
+       "year": 2004,
+       "description": "Příběh dvou kamarádů, kteří jedou na hory zažít skvělou zábavu a snowboarding.",
+        "footage": 100,
+       "photo": "photos/movies/snowboardaci.jpg",
+        "director": null,
+        "actors": [],
+       "genres": []
       }
     },
     {
       "model": "movies.movie",
       "pk": 2,
       "fields": {
-        "title": "Joe in Sweden",
-        "year": 2024,
-        "footage": 150,
-        "description": "NOT OUT YET",
-        "photo": ""
+        "title": "Pelíšky",
+        "year": 1999,
+        "description": "Komedie z doby konce 60. let, která sleduje osudy dvou rodin během Vánoc.",
+        "footage": 115,
+        "photo": "photos/movies/pelisky.jpg",
+        "director": null,
+        "actors": [],
+        "genres": []
       }
     },
     {
       "model": "movies.movie",
       "pk": 3,
       "fields": {
-        "title": "Rambo Dog",
-        "year": 2024,
-        "footage": 120,
-        "description": "NOT OUT YET",
-        "photo": ""
+        "title": "Gympl",
+        "year": 2007,
+       "description": "Dramatická komedie o středoškolských studentech a jejich životních příbězích.",
+        "footage": 110,
+        "photo": "photos/movies/gympl.jpg",
+        "director": null,
+        "actors": [],
+        "genres": []
       }
     },
     {
       "model": "movies.movie",
       "pk": 4,
       "fields": {
-        "title": "Harry Potter 2042",
-        "year": 2024,
-        "footage": 190,
-        "description": "NOT OUT YET",
-        "photo": ""
+        "title": "Rafťáci",
+        "year": 2006,
+        "description": "Dva kamarádi vyráží na prázdniny na řeku a zažívají spoustu dobrodružství.",
+       "footage": 105,
+       "photo": "photos/movies/raftaci.jpg",
+        "director": null,
+       "actors": [],
+        "genres": []
       }
     },
     {
       "model": "movies.movie",
       "pk": 5,
       "fields": {
-        "title": "Nebe a zem",
-        "year": 2024,
-        "footage": 153,
-        "description": "NOT OUT YET",
-        "photo": ""
+        "title": "Párty Hárd",
+          "year": 2019,
+          "description": "Příběh o partě přátel, kteří se vydávají na divokou párty.",
+          "footage": 90,
+           "photo": "photos/movies/party-hard.jpg",
+         "director": null,
+          "actors": [],
+           "genres": []
       }
     }
     ]
