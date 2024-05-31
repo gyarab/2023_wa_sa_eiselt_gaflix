@@ -4,7 +4,7 @@
 ## První inicializace projektu
 
 ```
-git clone git@github.com:gyarab/2023_wa_sa_eiselt_gaflix.git
+git clone https://github.com/gyarab/2023_wa_sa_eiselt_gaflix.git
 cd 2023_wa_sa_eiselt_gaflix/
 
 py -3 -m venv venv
