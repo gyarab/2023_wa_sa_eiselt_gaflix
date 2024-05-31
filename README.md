@@ -1,5 +1,13 @@
-# 2023_wa_sa_eiselt_gaflix
 # Lepsi Netflix ofc
+
+
+## Co je potreba dodelat
+
+```
+predelat databazi hercu a dpolnit je vsude
+zmeni IDcka u vsech
+dodelat frontend
+```
 
 ## První inicializace projektu
 
