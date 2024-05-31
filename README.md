@@ -1,4 +1,4 @@
-# 2023_wa_sa_chalupnicek_gaflix
+# 2023_wa_sa_eiselt_gaflix
 # Lepsi Netflix ofc
 
 ## První inicializace projektu
