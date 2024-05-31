@@ -1,52 +1,52 @@
 [
-    {
-      "model": "movies.director",
-      "pk": 1,
-      "fields": {
-        "name": "František Kazoš",
-        "birthyear": 1991,
-        "description": "agressive",
-        "photo": ""
-      }
-    },
-    {
-      "model": "movies.director",
-      "pk": 2,
-      "fields": {
-        "name": "Bohumil Bondas",
-        "birthyear": 1978,
-        "description": "directed only one film",
-        "photo": ""
-      }
-    },
-    {
-      "model": "movies.director",
-      "pk": 3,
-      "fields": {
-        "name": "Jarmil Fungo",
-        "birthyear": 1967,
-        "description": "legend",
-        "photo": ""
-      }
-    },
-    {
-      "model": "movies.director",
-      "pk": 4,
-      "fields": {
-        "name": "Michal Jakotoš",
-        "birthyear": 1989,
-        "description": "deaf",
-        "photo": ""
-      }
-    },
-    {
-      "model": "movies.director",
-      "pk": 5,
-      "fields": {
-        "name": "Jakub Bundoklas",
-        "birthyear": 1986,
-        "description": "no friends",
-        "photo": ""
-      }
-    }
-    ]
+{
+  "model": "movies.director",
+  "pk": 6,
+  "fields": {
+    "name": "John Lasseter",
+    "description": "John Lasseter (* 12. ledna 1957 Hollywood, Kalifornie) je americký režisér, scenárista, producent a animátor. Režíroval filmy Toy Story: Příběh hraček, Život brouka, Toy Story 2: Příběh hraček, Auta a Auta 2. Je jedním ze zakladatelů studia Pixar.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/JohnLasseterOct2011.jpg/225px-JohnLasseterOct2011.jpg",
+    "birthyear": 1957
+  }
+},
+{
+  "model": "movies.director",
+  "pk": 7,
+  "fields": {
+    "name": "Andrew Adamson",
+    "description": "Andrew Adamson (* 1. prosince 1966 Auckland) je novozélandský režisér. Proslavil se zejména natočením animované komedie Shrek. Jeho dalším režijním počinem byla nová filmová verze známého díla irského spisovatele C. S. Lewise Letopisy Narnie – Lev, čarodějnice a skříň, Princ Kaspian a Plavba jitřního poutníka. Roku 2012 natočil film Pan Pip s Hughem Lauriem v hlavní roli.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Andrew_Adamson_%28cropped%29.jpg",
+    "birthyear": 1966
+  }
+},
+{
+  "model": "movies.director",
+  "pk": 8,
+  "fields": {
+    "name": "Vicky Jenson",
+    "description": "Victoria Jenson (narozena 4. března 1960) je americká filmová režisérka hraných i animovaných filmů, režírovala projekty pro DreamWorks Animation, včetně Shreka, prvního filmu, který získal Oscara za nejlepší animovaný film, a dal vzniknout jedné z největších hollywoodských filmových sérií.",
+    "photo": "https://image.tmdb.org/t/p/w300/dDSlofPZbJxtYBO2f73XjNwcFVT.jpg",
+    "birthyear": 1960
+  }
+},
+{
+  "model": "movies.director",
+  "pk": 9,
+  "fields": {
+    "name": "Joseph Kosinski",
+    "description": "Joseph Kosinski (narozen 3. května 1974) je americký filmový režisér, známý především svou prací v oblasti počítačové grafiky a počítačem generovaných obrazů (CGI) a akčních filmů. Natočil filmy Tron: Dědictví (2010), Oblivion (2013), Jen odvážní (2017), Top Gun: Maverick (2022) a Spiderhead (2022). Jeho předchozí práce se týkala především televizních reklam spojených s CGI, včetně reklamy „Starry Night“ pro hru Halo 3 a oceňované reklamy „Mad World“ pro hru Gears of War.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Joe_Kosinski_by_Gage_Skidmore.jpg/220px-Joe_Kosinski_by_Gage_Skidmore.jpg",
+    "birthyear": 1974
+  }
+},
+{
+  "model": "movies.director",
+  "pk": 10,
+  "fields": {
+    "name": "Karel Janák",
+    "description": "Karel Janák (* 24. září 1970 Praha) je český filmový a televizní režisér.",
+    "photo": "https://img.ceskatelevize.cz/cache/216x288/lideCT/photos/cards/medium/1358.jpg?1295883105",
+    "birthyear": 1970
+  }
+}
+]

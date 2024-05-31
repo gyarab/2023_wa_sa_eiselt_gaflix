@@ -7,7 +7,7 @@ class Movie(models.Model):
     year = models.PositiveSmallIntegerField(blank=True, null=True)
     description = models.TextField(blank=True)
     footage = models.PositiveSmallIntegerField(blank=True, null=True, help_text="in minutes")
-    photo = models.ImageField(upload_to="photos/movies", blank=True, null=True)
+    photo = models.CharField(blank=True, null=True, max_length=500)
     director = models.ForeignKey("Director", blank=True, null=True, on_delete=models.SET_NULL)
     actors = models.ManyToManyField("Actor", blank=True, null=True)
     genres = models.ManyToManyField("Genre", blank=True, null=True)
@@ -21,7 +21,7 @@ class Movie(models.Model):
 class Director(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
-    photo = models.ImageField(upload_to="photos/directors", blank=True, null=True)
+    photo = models.CharField(blank=True, null=True, max_length=500)
     birthyear = models.PositiveSmallIntegerField(blank=True, null=True)
 
     def __str__(self):
@@ -30,7 +30,7 @@ class Director(models.Model):
 class Actor(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
-    photo = models.ImageField(upload_to="photos/actors", blank=True, null=True)
+    photo = models.CharField(blank=True, null=True, max_length=500)
     birthyear = models.PositiveSmallIntegerField(blank=True, null=True)
 
     def __str__(self):

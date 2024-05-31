@@ -34,3 +34,10 @@ source ./venv/Scripts/activate
 ./manage.py makemigrations
 ./manage.py migrate
 ```
+
+```
+export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 movies.director > fixtures/directors.json
+```
+```
+ python manage.py loaddata fixtures/*.json
+```
