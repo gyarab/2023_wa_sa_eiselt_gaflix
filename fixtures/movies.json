@@ -1,31 +1,38 @@
 [
 {
   "model": "movies.movie",
-  "pk": 5,
+  "pk": 1,
   "fields": {
     "title": "Snowboarďáci",
     "year": 2004,
     "description": "Příběh dvou kamarádů, kteří jedou na hory zažít skvělou zábavu a snowboarding.",
     "footage": 100,
     "photo": "https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/160/647/160647387_6e38b8.jpg",
-    "director": null,
-    "actors": [],
-    "genres": [
+    "director": 5,
+    "actors": [
+      1,
       2
+    ],
+    "genres": [
+      2,
+      4
     ]
   }
 },
 {
   "model": "movies.movie",
-  "pk": 6,
+  "pk": 2,
   "fields": {
     "title": "Top Gun: Maverick",
     "year": 2022,
     "description": "Pete „Maverick“ Mitchell (Tom Cruise) k smrti rád pilotuje stíhačky. Dokonce tak, že se už přes třicet let úspěšně brání povýšení ve strukturách amerického letectva, protože to by ho z kokpitu vyhnalo do vyhřáté kanceláře. Maverick byl navíc vždycky magnetem na průšvihy, což se s armádní kariérou taky docela vylučuje.",
     "footage": 131,
     "photo": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/166/205/166205318_28cfab.jpg",
-    "director": null,
-    "actors": [],
+    "director": 4,
+    "actors": [
+      3,
+      4
+    ],
     "genres": [
       1
     ]
@@ -33,14 +40,14 @@
 },
 {
   "model": "movies.movie",
-  "pk": 7,
+  "pk": 3,
   "fields": {
     "title": "Shrek",
     "year": 2001,
     "description": "Odvážný Shrek (Mike Myers) pátrá se svým kamarádem, sympatickým a chvastounským oslem (Eddie Murphy) po krásné a divoké princezně Fioně (Cameron Diaz). Za její záchranu chce od intrikána Lorda Farquadda (John Lithgow) získat zpět svou milovanou bažinu.",
     "footage": 90,
     "photo": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/600/158600745_6cc2db.jpg",
-    "director": null,
+    "director": 2,
     "actors": [],
     "genres": [
       8
@@ -49,14 +56,14 @@
 },
 {
   "model": "movies.movie",
-  "pk": 8,
+  "pk": 4,
   "fields": {
     "title": "Auta",
     "year": 2006,
     "description": "Když se začínající, avšak velmi ambiciózní závodní auto Blesk McQueen během cesty na velkolepý šampionát Zlatý píst neočekávaně zatoulá do ospalé Kardanové lhoty u Silnice 66, naučí se, že opravdová radost ze života se neskrývá za cílovou rovinkou, ale na cestě k ní. Auta ze lhoty, s nimiž se v průběhu svého putování napříč Amerikou seznámí, mu ukáží, že na světě existují i důležitější věci než trofeje, sláva a sponzoři.",
     "footage": 117,
     "photo": "https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/158/597/158597606_279039.jpg",
-    "director": null,
+    "director": 1,
     "actors": [],
     "genres": [
       8
@@ -65,14 +72,14 @@
 },
 {
   "model": "movies.movie",
-  "pk": 9,
+  "pk": 5,
   "fields": {
     "title": "Simpsonovi ve filmu",
     "year": 2007,
     "description": "Jeden z nejúspěšnějších televizních seriálů se dočkal i celovečerního filmového zpracování. Populární rodinka Simpsonových ze Springfieldu tentokrát čelí globálním výzvám a Homer provede nejhorší věc svého života... Homer totiž do jezera vypustí jímku s exkrementy svého oblíbeného pašíka. Pro springfieldské jezero, které už takhle slouží jako oblíbená skládka občanů a dosahuje maximálního stupně znečištění, je to poslední kapka. A je to i poslední kapka v poháru trpelivosti prezidenta. Ten se proto rozhodne nepohodlné město zcela izolovat pod speciálním skleněným poklopem a oficiálně ho vymazat ze všech map. Jenže s tím se Homer smířit nehodlá…",
     "footage": 87,
     "photo": "https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/000/004/4599_41e971.jpg",
-    "director": null,
+    "director": 6,
     "actors": [],
     "genres": [
       8

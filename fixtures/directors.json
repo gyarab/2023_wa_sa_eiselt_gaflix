@@ -1,7 +1,7 @@
 [
 {
   "model": "movies.director",
-  "pk": 6,
+  "pk": 1,
   "fields": {
     "name": "John Lasseter",
     "description": "John Lasseter (* 12. ledna 1957 Hollywood, Kalifornie) je americký režisér, scenárista, producent a animátor. Režíroval filmy Toy Story: Příběh hraček, Život brouka, Toy Story 2: Příběh hraček, Auta a Auta 2. Je jedním ze zakladatelů studia Pixar.",
@@ -11,7 +11,7 @@
 },
 {
   "model": "movies.director",
-  "pk": 7,
+  "pk": 2,
   "fields": {
     "name": "Andrew Adamson",
     "description": "Andrew Adamson (* 1. prosince 1966 Auckland) je novozélandský režisér. Proslavil se zejména natočením animované komedie Shrek. Jeho dalším režijním počinem byla nová filmová verze známého díla irského spisovatele C. S. Lewise Letopisy Narnie – Lev, čarodějnice a skříň, Princ Kaspian a Plavba jitřního poutníka. Roku 2012 natočil film Pan Pip s Hughem Lauriem v hlavní roli.",
@@ -21,7 +21,7 @@
 },
 {
   "model": "movies.director",
-  "pk": 8,
+  "pk": 3,
   "fields": {
     "name": "Vicky Jenson",
     "description": "Victoria Jenson (narozena 4. března 1960) je americká filmová režisérka hraných i animovaných filmů, režírovala projekty pro DreamWorks Animation, včetně Shreka, prvního filmu, který získal Oscara za nejlepší animovaný film, a dal vzniknout jedné z největších hollywoodských filmových sérií.",
@@ -31,7 +31,7 @@
 },
 {
   "model": "movies.director",
-  "pk": 9,
+  "pk": 4,
   "fields": {
     "name": "Joseph Kosinski",
     "description": "Joseph Kosinski (narozen 3. května 1974) je americký filmový režisér, známý především svou prací v oblasti počítačové grafiky a počítačem generovaných obrazů (CGI) a akčních filmů. Natočil filmy Tron: Dědictví (2010), Oblivion (2013), Jen odvážní (2017), Top Gun: Maverick (2022) a Spiderhead (2022). Jeho předchozí práce se týkala především televizních reklam spojených s CGI, včetně reklamy „Starry Night“ pro hru Halo 3 a oceňované reklamy „Mad World“ pro hru Gears of War.",
@@ -41,12 +41,22 @@
 },
 {
   "model": "movies.director",
-  "pk": 10,
+  "pk": 5,
   "fields": {
     "name": "Karel Janák",
     "description": "Karel Janák (* 24. září 1970 Praha) je český filmový a televizní režisér.",
     "photo": "https://img.ceskatelevize.cz/cache/216x288/lideCT/photos/cards/medium/1358.jpg?1295883105",
     "birthyear": 1970
+  }
+},
+{
+  "model": "movies.director",
+  "pk": 6,
+  "fields": {
+    "name": "David Silverman",
+    "description": "David Silverman (* 15. března 1957 New York) je americký režisér a animátor, který režíroval řadu dílů animovaného televizního seriálu Simpsonovi i jeho filmové zpracování. Silverman se na seriálu podílel od samého počátku, kdy animoval všechny původní skeče Simpsonových, které se vysílaly v pořadu The Tracey Ullman Show. Několik let pak působil jako ředitel animace seriálu. Vytvořil také animaci pro film Hořkých sedmnáct z roku 2016, který produkovala společnost Gracie Films.",
+    "photo": "https://static.tvtropes.org/pmwiki/pub/images/david_silverman_5.jpg",
+    "birthyear": 1957
   }
 }
 ]

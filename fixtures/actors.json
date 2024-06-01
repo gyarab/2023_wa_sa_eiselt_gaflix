@@ -1,2 +1,42 @@
 [
+{
+  "model": "movies.actor",
+  "pk": 1,
+  "fields": {
+    "name": "Jiří Mádl",
+    "description": "Jiří Mádl (* 23. října 1986 České Budějovice) je český filmový herec, režisér a scenárista. Proslavil se především jako herec ve filmech Snowboarďáci, Konfident, Colette, Gympl, Probudím se včera, Děti noci a filmem Hra. Hrál i v mezinárodních projektech Borgia, Interlude in Prague nebo Berlin Eins.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ji%C5%99%C3%AD_M%C3%A1dl_%282022%29_II.jpg/250px-Ji%C5%99%C3%AD_M%C3%A1dl_%282022%29_II.jpg",
+    "birthyear": 1986
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 2,
+  "fields": {
+    "name": "Vojtěch Kotek",
+    "description": "Vojtěch Kotek (* 8. ledna 1988 Praha) je český herec, režisér a hudebník.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Vojt%C4%9BchKotek.jpg/225px-Vojt%C4%9BchKotek.jpg",
+    "birthyear": 1988
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 3,
+  "fields": {
+    "name": "Tom Cruise",
+    "description": "Thomas „Tom“ Cruise Mapother IV (* 3. července 1962 Syracuse, New York, USA) je americký herec, scenárista, producent a režisér.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/225px-Tom_Cruise_by_Gage_Skidmore_2.jpg",
+    "birthyear": 1962
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 4,
+  "fields": {
+    "name": "Miles Teller",
+    "description": "Miles Alexander Teller (* 20. února 1987) je americký herec.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Miles_Teller_March_18%2C_2014_%28cropped%29.jpg/225px-Miles_Teller_March_18%2C_2014_%28cropped%29.jpg",
+    "birthyear": 1987
+  }
+}
 ]

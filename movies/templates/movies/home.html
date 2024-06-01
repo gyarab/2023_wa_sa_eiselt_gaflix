@@ -1,11 +1,52 @@
 {% extends 'movies/base.html' %}
 
-{% block 'title' %} Prvni {{ block.super }} {% endblock %}
+{% block 'title' %} Home {{ block.super }} {% endblock %}
 
 {% block 'content' %}
-    <h1> Cauves <h1>
-        <p>
-            kocicky, pejsci a kralicci<br>
-            tady se muzete koukat na piratsky ukradnute filmy
-        </p>        
+<div class="container mt-5">
+
+    <div class="col-md-4 mx-auto" style="margin-top: 120px;">
+        <div class="card mb-4 text-center" style="background-color: #ffffff; border: 2px solid #99D3DF; border-radius: 10px; overflow: hidden;">
+            <div class="card-body">
+                <h1 class="display-4"><strong style="color: #99D3DF;">GaFlix</strong></h1>
+                <p class="lead" style="color: #99D3DF;">Not just one of many, we're build diff</p>
+                <a class="btn btn-primary btn-lg btn-dark" href="{% url 'movies' %}" role="button" style="color: #99D3DF; background-color: #E9E9E9; border: 2px solid #99D3DF;">Browse Movies</a>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 text-center" style="background-color: #ffffff; border: 2px solid #99D3DF; border-radius: 10px; overflow: hidden;">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #99D3DF;">Browse Movies</h5>
+                    <p class="card-text" style="color: #99D3DF;">Don't know what to watch? Try it here:</p>
+                    <a href="{% url 'movies' %}" class="btn btn-secondary" style="color: #99D3DF; background-color: #E9E9E9; border: 2px solid #99D3DF;">Browse</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 text-center" style="background-color: #ffffff; border: 2px solid #99D3DF; border-radius: 10px; overflow: hidden;">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #99D3DF;">Genres</h5>
+                    <p class="card-text" style="color: #99D3DF;">Filter movies by genres.</p>
+                    <a href="" class="btn btn-secondary" style="color: #99D3DF; background-color: #E9E9E9; border: 2px solid #99D3DF;">Explore Genres</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 text-center" style="background-color: #ffffff; border: 2px solid #99D3DF; border-radius: 10px; overflow: hidden;">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #99D3DF;">Best Directors</h5>
+                    <p class="card-text" style="color: #99D3DF;">Who really made the film you enjoyed?</p>
+                    <a href="" class="btn btn-secondary" style="color: #99D3DF; background-color: #E9E9E9; border: 2px solid #99D3DF;">View Directors</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
 {% endblock %}

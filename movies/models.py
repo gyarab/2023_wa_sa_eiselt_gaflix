@@ -8,7 +8,7 @@ class Movie(models.Model):
     description = models.TextField(blank=True)
     footage = models.PositiveSmallIntegerField(blank=True, null=True, help_text="in minutes")
     photo = models.CharField(blank=True, null=True, max_length=500)
-    director = models.ForeignKey("Director", blank=True, null=True, on_delete=models.SET_NULL)
+    director = models.ManyToManyField("Director", blank=True, null=True)
     actors = models.ManyToManyField("Actor", blank=True, null=True)
     genres = models.ManyToManyField("Genre", blank=True, null=True)
 
