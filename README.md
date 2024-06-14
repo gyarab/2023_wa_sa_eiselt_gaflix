@@ -4,8 +4,6 @@
 ## Co je potreba dodelat
 
 ```
-predelat databazi hercu a dpolnit je vsude
-zmeni IDcka u vsech
 dodelat frontend
 ```
 
