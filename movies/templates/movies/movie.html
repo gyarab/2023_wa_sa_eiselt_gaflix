@@ -4,70 +4,72 @@
 
 {% block 'content' %}
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-8">
-                <h1 class="display-4">{{ movie.title }}</h1>
-                <p><strong>Year:</strong> {{ movie.year }}</p>
-                <p><strong>Footage:</strong> {{ movie.footage }} minutes</p>
-                
-                <div class="mb-4">
-                    {% if movie.photo %}
-                        <img src="{{ movie.photo }}" alt="{{ movie.title }}" class="img-fluid">
-                    {% else %}
-                        <p class="text-muted">No photo available</p>
-                    {% endif %}
-                </div>
-                
-                <div>
-                    <h2>Description</h2>
-                    <p>{{ movie.description }}</p>
-                </div>
-                
-                <div>
-                    <h2>Genres</h2>
-                    <p>{{ movie.genres_display }}</p>
-                </div>
-                
-                <div>
-                    <h2>Director</h2>
-                    {% if movie.director %}
-                        <div class="media mb-4">
-                            {% if movie.director.photo %}
-                                <img src="{{ movie.director.photo }}" alt="{{ movie.director.name }}" class="mr-3 img-thumbnail" style="width: 100px;">
-                            {% endif %}
-                            <div class="media-body">
-                                <h5 class="mt-0">{{ movie.director.name }}</h5>
-                                <p><strong>Birth Year:</strong> {{ movie.director.birthyear }}</p>
-                                <p>{{ movie.director.description }}</p>
+        <div class="col-md-8 mx-auto" style="margin-top: 120px;">
+            <div class="card mb-4 text-center" style="background-color: #ffffff; border: 2px solid #99D3DF; border-radius: 10px; overflow: hidden;">
+                <div class="card-body">
+                    <h1 class="display-4">{{ movie.title }}</h1>
+                    <p><strong>Year:</strong> {{ movie.year }}</p>
+                    <p><strong>Footage:</strong> {{ movie.footage }} minutes</p>
+                    
+                    <div class="mb-4">
+                        {% if movie.photo %}
+                            <img src="{{ movie.photo }}" alt="{{ movie.title }}" class="img-fluid">
+                        {% else %}
+                            <p class="text-muted">No photo available</p>
+                        {% endif %}
+                    </div>
+                    
+                    <div>
+                        <h2>Description</h2>
+                        <p>{{ movie.description }}</p>
+                    </div>
+                    
+                    <div>
+                        <h2>Genres</h2>
+                        <p>{{ movie.genres_display }}</p>
+                    </div>
+                    
+                    <div>
+                        <h2>Director</h2>
+                        {% if movie.director %}
+                            <div class="media mb-4">
+                                {% if movie.director.photo %}
+                                    <img src="{{ movie.director.photo }}" alt="{{ movie.director.name }}" class="mr-3 img-thumbnail" style="width: 100px;">
+                                {% endif %}
+                                <div class="media-body">
+                                    <h5 class="mt-0">{{ movie.director.name }}</h5>
+                                    <p><strong>Birth Year:</strong> {{ movie.director.birthyear }}</p>
+                                    <p>{{ movie.director.description }}</p>
+                                </div>
                             </div>
-                        </div>
-                    {% else %}
-                        <p class="text-muted">No director information available</p>
-                    {% endif %}
-                </div>
-                
-                <div>
-                    <h2>Actors</h2>
-                    {% if movie.actors.all %}
-                        <div class="row">
-                            {% for actor in movie.actors.all %}
-                                <div class="col-md-4">
-                                    <div class="card mb-4">
-                                        {% if actor.photo %}
-                                            <img src="{{ actor.photo }}" class="card-img-top" alt="{{ actor.name }}">
-                                        {% endif %}
-                                        <div class="card-body">
-                                            <h5 class="card-title">{{ actor.name }}</h5>
-                                            <p class="card-text">{{ actor.description }}</p>
-                                            <p class="card-text"><small class="text-muted"><strong>Birth Year:</strong> {{ actor.birthyear }}</small></p>
+                        {% else %}
+                            <p class="text-muted">No director information available</p>
+                        {% endif %}
+                    </div>
+                    
+                    <div>
+                        <h2>Actors</h2>
+                        {% if movie.actors.all %}
+                            <div class="row justify-content-center">
+                                {% for actor in movie.actors.all %}
+                                    <div class="col-md-4">
+                                        <div class="card mb-4 text-center" style="background-color: #ffffff; border: 2px solid #99D3DF; border-radius: 10px; overflow: hidden;">
+                                            {% if actor.photo %}
+                                                <img src="{{ actor.photo }}" class="card-img-top" alt="{{ actor.name }}">
+                                            {% endif %}
+                                            <div class="card-body">
+                                                <h5 class="card-title">{{ actor.name }}</h5>
+                                                <p class="card-text">{{ actor.description }}</p>
+                                                <p class="card-text"><small class="text-muted"><strong>Birth Year:</strong> {{ actor.birthyear }}</small></p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        <p class="text-muted">No actors information available</p>
-                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            <p class="text-muted">No actors information available</p>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
